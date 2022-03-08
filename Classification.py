@@ -1,10 +1,9 @@
 import numpy as np
 from ast import literal_eval
 
-
 recvData=None
 
-class overload:
+class Classification:
  def __init__(self,inputData):
   self.inputData=inputData
   print(type(inputData))
@@ -31,21 +30,14 @@ class overload:
        self.inputData=False
       else:
        self.inputData=self.inputData
-   """try:
-       self.inputData=list(self.inputData.split(","))
-       print(type(self.inputData))
-      except:
-       print("리스트가 아닙니다")"""
        
  def switching(self):
   return self.inputData
 
-
-
 print(type(recvData))
 
 inputData=input("아무 값이나 입력하세요 : ")
-a=overload(inputData)
+a=Classification(inputData)
 recvData=a.switching()
 print(recvData)
 print(type(recvData))
