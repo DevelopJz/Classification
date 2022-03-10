@@ -12,6 +12,13 @@
 ast  
 numpy
 
+### 라이브러리 설치
+```python
+
+python -m pip install 라이브러리명
+
+```
+
 ### 코드 설명
 **Classification.py**  
 try / except 문을 이용해 변수 구분하는 간단한 함수 구현  
