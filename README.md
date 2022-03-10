@@ -2,7 +2,7 @@
 ## 1-Python3 Variable Classification
 
 ### 라이브러리
-Python.ast  
+ast  
 Numpy
 
 ### 코드
