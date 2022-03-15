@@ -12,63 +12,73 @@
 
  - 동작 결과
   - 입력값이 정수일 때
-<class 'NoneType'>
-아무 값이나 입력하세요 : 3
-<class 'str'>
-3
-<class 'int'>
-3
-<class 'int'>
+  -----코드 동작 출력-----
+      <class 'NoneType'>
+      아무 값이나 입력하세요 : 3
+      <class 'str'>
+      3
+      <class 'int'>
+      3
+      <class 'int'>
+  -----------------------
 
   - 입력값이 실수일 때
-<class 'NoneType'>
-아무 값이나 입력하세요 : 3.54
-<class 'str'>
-3.54
-정수가 아닙니다
-<class 'float'>
-3.54
-<class 'float'>
+  -----코드 동작 출력-----
+      <class 'NoneType'>
+      아무 값이나 입력하세요 : 3.54
+      <class 'str'>
+      3.54
+      정수가 아닙니다
+      <class 'float'>
+      3.54
+      <class 'float'>
+  -----------------------
 
   - 입력값이 문자열일 때
-<class 'NoneType'>
-아무 값이나 입력하세요 : korea
-<class 'str'>
-korea
-정수가 아닙니다
-실수가 아닙니다
-복소수가 아닙니다
-korea
-<class 'str'>
+  -----코드 동작 출력-----
+      <class 'NoneType'>
+      아무 값이나 입력하세요 : korea
+      <class 'str'>
+      korea
+      정수가 아닙니다
+      실수가 아닙니다
+      복소수가 아닙니다
+      korea
+      <class 'str'>
+   -----------------------
 
   - 입력값이 복소수일 때
-<class 'NoneType'>
-아무 값이나 입력하세요 : 3+4j
-<class 'str'>
-3+4j
-정수가 아닙니다
-실수가 아닙니다
-<class 'complex'>
-(3+4j)
-<class 'complex'>
+  -----코드 동작 출력-----
+      <class 'NoneType'>
+      아무 값이나 입력하세요 : 3+4j
+      <class 'str'>
+      3+4j
+      정수가 아닙니다
+      실수가 아닙니다
+      <class 'complex'>
+      (3+4j)
+      <class 'complex'>
+  -----------------------
 
   - 입력값이 True / False 일 때
-<class 'NoneType'>
-아무 값이나 입력하세요 : True / TRUE / true
-<class 'str'>
-True
-정수가 아닙니다
-실수가 아닙니다
-복소수가 아닙니다
-True
-<class 'bool'>
+  -----코드 동작 출력-----
+      <class 'NoneType'>
+      아무 값이나 입력하세요 : True / TRUE / true
+      <class 'str'>
+      True
+      정수가 아닙니다
+      실수가 아닙니다
+      복소수가 아닙니다
+      True
+      <class 'bool'>
 
-<class 'NoneType'>
-아무 값이나 입력하세요 : False / FALSE / false
-<class 'str'>
-False
-정수가 아닙니다
-실수가 아닙니다
-복소수가 아닙니다
-False
-<class 'bool'>
+      <class 'NoneType'>
+      아무 값이나 입력하세요 : False / FALSE / false
+      <class 'str'>
+      False
+      정수가 아닙니다
+      실수가 아닙니다
+      복소수가 아닙니다
+      False
+      <class 'bool'>
+  -----------------------
